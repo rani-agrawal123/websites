@@ -1,0 +1,90 @@
+body{
+   
+   margin:0px;
+  padding:0px;
+    background-image: url(https://img.freepik.com/premium-photo/side-view-beautiful-muscular-woman-running-treadmill_109710-1641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+   }
+   .left{
+ /* border:2px solid red; */
+ font-size: 20px;
+ color:white;
+ display: inline-block;
+ position:absolute;
+left:30px;
+top:20px;
+   }
+   .img{
+    width: 100px;
+    height:100px;
+    /* invert:- it is use to change the photo color (white to black and black to white) */
+    filter:invert(100%);
+   }
+   .mid{
+font-size: 20px;
+color:white;
+margin:auto;
+width:45%;
+margin-top: 20px;
+   }
+   .right{
+font-size: 25px;
+display: inline-block;
+position:absolute;
+right:30px;
+top:5px;
+   }
+   .btn{
+    margin:20px;
+    color:wheat;
+    background-color: black;
+    padding:4px 14px;
+    /* border:2px solid grey; */
+    border-radius: 10px;
+    
+   }
+   .btn:hover{
+    background-color: rgb(99, 96, 96);
+   }
+   .nav li{
+    display:inline-block;
+    padding:8px;
+   }
+   .nav li a{
+    color:white;
+text-decoration: none; 
+padding: 34px 23px;
+   }
+  .nav a:hover{
+    color:red;
+   }
+   .nav a:hover,  .nav a.active{
+    text-decoration: underline;
+    color:rgb(73, 73, 241);
+   }
+   .container{
+    border:2px solid grey;
+    border-radius: 10px;
+    width:23%;
+    margin-top: 76px;
+    float:left;
+    color:white;
+    background-color: rgb(98, 95, 95);
+   }
+   .form input{
+    text-align:center; 
+    padding: 10px;
+    margin:7px;
+    margin-left: 26%;
+   }
+   .container h3{
+    text-align: center;
+    color:rgb(8, 8, 8);
+   }
+   .form .btn{
+    margin-left: 140px;
+    padding:10px;
+    width: 90px;
+   }

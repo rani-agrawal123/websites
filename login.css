@@ -1,0 +1,67 @@
+div{
+    background-color:white;
+    border: 30px;
+    align-items: center;
+    margin: auto;
+    width:35%;
+    background-image: url(img1.jpg)no-repeat center center/cover;
+    z-index: -1;
+}
+button{
+    margin-top: 20px;
+    margin-left: 85px;
+    width:360px;
+    height:35px;
+   background-color: blue;
+   text-align:center;
+   /* align-items: center; */
+}
+body{
+    background-color:rgb(207, 59, 133)
+}
+h4{
+    text-align:center;
+    font-size: 30px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:25px;
+}
+.log{
+    margin:5px;
+    width:350px;
+    height:35px;
+    float:center;
+    margin-left: 85px;
+    
+}
+p{
+    text-align:center;
+    margin-top:20px;
+    font-size:25px;
+    color:rgb(7, 7, 104);
+}
+.ra{
+    color:rgb(81, 81, 216);
+    margin:20px;
+}
+.ni{
+    background-color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+span{
+    color:rgb(14, 14, 159);
+    font-size:20px;
+}
+hr{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left: 85px;
+    content: '§';
+  padding: 0 4px; 
+  position: relative;
+  top: -13px;
+}

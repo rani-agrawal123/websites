@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable tutorial</title>
+    <style>
+        :root {
+            --color: rgb(238, 96, 238);
+            --seccolor: rgb(213, 75, 75);
+            --defop: 0.4;
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: var(--color);
+        }
+
+        ul li {
+            opacity: var(--defop);
+            list-style: none;
+            /* margin: 10px; */
+            padding: 15px;
+            border: 2px solid var(--seccolor);
+        }
+
+        ul li:first-child {
+            --color: rgb(157, 188, 79);
+            background-color: var(--color, blue);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .con {
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact us</li>
+        </ul>
+
+    </div>
+    <div class="con">
+        <p>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit labore numquam quia dicta unde!
+            Non temporibus magni consequatur quo enim, fugiat odit neque vero inventore, quos similique, corrupti ipsa.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, maiores labore veritatis possimus beatae
+            autem nostrum accusamus quia magnam nobis eaque dolor obcaecati dolore sunt id accusantium quo similique
+            blanditiis!</p>
+    </div>
+</body>
+
+</html>

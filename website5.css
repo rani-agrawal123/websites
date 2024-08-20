@@ -1,0 +1,360 @@
+.container {}
+
+#box1 input {
+    border: 2px solid black;
+    background-color: white;
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+#box1 .btn1 {
+    width: 90px;
+    height: 30px;
+    float: right;
+    background-color: rgb(41, 185, 41);
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+#box2 {
+    /* border:2px solid black; */
+    width: 70%;
+    height: 35px;
+    margin-top: 3px;
+    margin-left: 50%;
+    margin-right: 10px;
+    float: right;
+    background-color: beige;
+}
+
+#box2 li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 0px;
+    font-size: 20px;
+
+}
+
+#box3 {
+    border: 2px solid black;
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    float: right;
+    display: inline-block;
+    background-color: rgb(7, 194, 7);
+
+}
+
+#box3 .text {
+    list-style: none;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#box3 ul .list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 0px;
+    margin-right: 110px;
+    font-size: 20px;
+}
+
+#box3 ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.img1 img {
+    width: 800px;
+    height: 400p;
+    margin-top: 30px;
+}
+
+.box1 {
+    /* border:2px solid black; */
+    float: right;
+    width: 390px;
+    height: 350px;
+    margin-top:120px;
+    margin-right: 250px;
+    font-size: 16px;
+}
+
+.box1 h1 {
+    font-size: 45px;
+    /* text-align: center; */
+}
+
+.box1 .btn2 {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    /* margin-left: 130px; */
+}
+
+#class1 .box5 {
+    border: 3px solid black;
+    width:470px;
+    height: 400px;
+    /* margin-left: 200px; */
+    display: inline-block;
+    /* grid-template-rows: 130px 130px 130px;
+    grid-template-columns: 130px 130px 130px; */
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#class1 {
+    margin-left: 40px;
+}
+
+#class1 #item-1 {
+    background-image: url(https://th.bing.com/th/id/OIP.XBOGlZP7G5kiR1Tf4TMihgHaE8?pid=ImgDet&w=640&h=427&rs=1);
+    position: relative;
+    z-index: -1;
+}
+
+#class1 #item-1 .head {
+    margin-top: 105px;
+}
+
+.btn3 {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+#class1 #item-2 {
+    background-image: url(https://s3.amazonaws.com/zweb-s3.uploads/ez2/wp-content/uploads/2019/09/iPhone1-560x432.jpg);
+    position: relative;
+    z-index: -1;
+
+}
+
+#class1 #item-2 .head {
+    margin-top: 105px;
+    color: white;
+}
+
+#class1 #item-3 {
+    background-image: url(https://th.bing.com/th/id/R.1ef2e3cdae0a52d6331b382719b4d5a9?rik=YLl6ujN8iehXEQ&riu=http%3a%2f%2fdesignstacks.net%2fcontent_images%2fAdobePhotoshop%2fART-D%2ftutorial192%2f53.jpg&ehk=paaMr8NT%2bBpezuOdw7AyjZ9%2fYYaMnN385HeFGTwsf1g%3d&risl=&pid=ImgRaw&r=0);
+    position: relative;
+    z-index: -1;
+
+}
+
+#class1 #item-3 .head {
+    margin-top: 105px;
+    color: black;
+}
+
+#class1 #item-4 {
+    background-image: url(https://th.bing.com/th/id/R.1fc0c44d5bea94206bcc607ffc3d46c4?rik=aKi4Lod92fV8SA&riu=http%3a%2f%2f2.bp.blogspot.com%2f_cWcuJM9QIG4%2fTD_236bFaeI%2fAAAAAAAAB_o%2fGLUL-MVYsaw%2fs1600%2fApple%2525252525252Bwallpaper%2525252525252Bdownload%2525252525252Bfree%25252525252Bd.jpg&ehk=izLdw1VkniFrBsg62ezVCVD3nJRGNjrESEEqcrmjCIY%3d&risl=&pid=ImgRaw&r=0);
+    position: relative;
+    z-index: -1;
+
+}
+
+#class1 #item-4 .head {
+    margin-top: 105px;
+    color: white;
+}
+
+#class1 #item-5 {
+    background-image: url(https://th.bing.com/th/id/R.11a23094d027f4a831a94c3eafd8dab4?rik=j9h4lyEorfGWSA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-oS6ZavxcKEk%2fT-qpLigni9I%2fAAAAAAAAAAk%2f11L3ySV-dso%2fs1600%2fiphone4india.jpg&ehk=%2fopiKAxaMt4vh9IQPwaOAcDAc%2bfMqvkGPeA7px8diTg%3d&risl=&pid=ImgRaw&r=0);
+    position: relative;
+    z-index: -1;
+}
+
+#class1 #item-5 .head {
+    margin-top: 105px;
+    color: black;
+}
+
+#class1 #item-6 {
+    background-image: url(https://th.bing.com/th/id/R.9ad768c6c28b19cd9a8a4f21d189296e?rik=Tj8Ocr8wSCA0Hg&riu=http%3a%2f%2fs1.r29static.com%2fbin%2fentry%2f780%2f560x420%2f1569214%2fimage.png&ehk=pxbArytLxYhIsGFcZ6bnAIFMhFETpRzvsuHCvnNRubE%3d&risl=&pid=ImgRaw&r=0);
+    position: relative;
+    z-index: -1;
+
+}
+
+#class1 #item-6 .head {
+    margin-top: 110px;
+    color: black;
+}
+
+/* our product */
+#pro{
+    border:2px solid red;
+    padding-top:0px;
+    background-color: beige;
+}
+
+.product .item {
+    border: 2px solid black;
+    background-color: rgb(220, 235, 235);
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+ .item img{
+    width:300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-left:10px;
+}
+
+.product {
+    margin-left: 50px;
+}
+
+#pro h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+.special{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 10px;
+    margin-left: 5px;
+    border:2px solid pink;
+    width:100%;
+    height: 830px;
+    background-color: bisque;
+}
+.special .box{
+    border: 2px solid black;
+    background-color: rgb(225, 236, 236);
+    width: 490px;
+    height: 250px;
+    margin-right: 3px;
+    margin-top: 7px;
+    
+}
+.special .box img{  
+    width:200px;
+    height: 250px;
+    
+}
+.special #head1{
+margin:0px;
+padding:0px;
+align-items: center;
+justify-content: center;
+padding-left: 170px;
+font-size: 30px;
+}
+.special #head2{
+    margin:0px;
+    padding:0px;
+    margin-left: 90px;
+    padding-left: 90px;
+    font-size: 30px;
+}
+.special #head3{
+    margin:0px;
+    padding:0px;
+  margin-left: 90px;
+  margin-top: 0px;
+  padding-left: 90px;
+  font-size: 30px;
+ 
+}
+.box p{
+    float:right;
+    width:280px;
+    height:200px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 90px;
+
+}
+.key{
+    border: 2px solid white;
+    background-color: rgb(248, 233, 214);
+    margin-top: 10px;
+}
+.key .keys{
+    width:350px;
+    height: 200;
+    display: inline-block;
+    margin-top: 8PX;
+    margin:70px;
+    text-align: center;
+}
+.key .keys img{
+    width: 250px;
+    height: 220px;
+    margin-left:20px;
+}
+.key .key1{
+    text-align: center;
+    font-size: 35px;
+}
+/* footer design */
+footer img{
+    width:100px;
+    height: 100px;
+    margin:40px;
+    padding-left: 60px;
+}
+.footer img{
+    width:50px;
+    height: 50px;
+    margin-left: 10px;
+}
+footer .footer{
+    background-color: rgb(39, 38, 38);
+    color:white;
+}
+.footer .foot{
+    width:300px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+.rani{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+   
+}
+
+.rani .about{
+    width:500px;
+    margin-right: 30px;
+    text-align: center;
+}
+.rani .info{
+    width: 150px;
+    margin-left: 180px;
+    text-align: center;
+   margin-right: 10px;
+}
+.rani .info p{
+    color:rgb(245, 69, 5);
+}
+ 

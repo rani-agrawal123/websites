@@ -1,0 +1,25 @@
+.container{
+display:grid;
+grid-gap:1rem;
+grid-template-areas: 
+'navbar navbar navbar navbar' 
+'section section section aside'
+'footer footer footer footer';
+}
+.item{
+    background-color: bisque;
+    border:2px solid black;
+    padding:20px;
+}
+#navbar{
+grid-area: navbar;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+footer{
+    grid-area:footer;
+}

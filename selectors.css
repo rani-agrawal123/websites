@@ -1,0 +1,37 @@
+/* div p{
+    background-color:green;
+    color:white;
+} */
+/* if p is contained by any li which is contained by div */
+/* div li p{
+    background-color:green;
+    color:white;
+} */
+/* if p is right insite div then css will be applied */
+/* div > p{
+    background-color:green;
+    color:white;
+} */
+/* if p is right after div and p is the next sibling of div */
+div + p{
+    background-color:green;
+    color:white;
+}
+div::first-line{
+    background-color: aqua;
+}
+[data-color="primery"]{
+    margin:20px;
+}
+/* p:first-child{
+background-color:red;
+} */
+body::before{
+    content:"hello rani";
+}
+body::after{
+    content:"byy rani";
+}
+::selection{
+    color:red;
+}

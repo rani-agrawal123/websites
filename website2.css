@@ -1,0 +1,60 @@
+ body{
+    background-image: url(https://th.bing.com/th/id/R.fc7fde9b96e4f29e3b3e70a34e88a164?rik=nvf3y57B2n2QVg&riu=http%3a%2f%2fwww.walk2mall.com%2fwp-content%2fuploads%2f2017%2f10%2fPeoples-mall.jpg%3fx38619&ehk=IFU2oHnzsN4eK8n8GOSusLvfYAgwFZWQTzRJi2BzcXc%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+
+}
+h1{
+     text-align:center;
+     color:rgb(207, 9, 9);
+}
+.list li{
+   list-style: none; 
+   display: inline-block;
+   font-size: 20px;
+   padding: 11px;
+   padding-left: 23px;
+   margin-left:35px;
+   margin-top: 0px;
+   
+
+}
+div ul{
+    border:3px solid black;
+    width:70%;
+    height: 40px;
+    margin-left: 20px;
+    background-color:rgb(199, 202, 242);
+}
+.list li a{
+    text-decoration: none;
+    color:black;
+}
+.class{
+    position:absolute;
+    right:10px;
+    top:80px;
+}
+.search{
+    background-color: rgb(212, 201, 201);
+    padding: 7px;
+    font-size: 15px;
+    margin:2px;
+    border:2px solid black;
+}
+.btn{
+    background-color: rgb(190, 182, 182);
+    color:black;
+    padding:7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin:7px;
+    border:2px solid black;
+}
+.list li a:hover {
+    color:rgb(232, 26, 26);
+    background-color: aquamarine;
+}
