@@ -24,7 +24,6 @@ else{
 }
 
 // lets generate the second word
-rand = Math.random()
 if(rand<0.33){
     second = "bros"
 }
@@ -35,7 +34,6 @@ else{
     second = "hub"
 }
 // lets generate the other word
-rand = Math.random()
 if(rand<0.66){
     third = "engine"
 }
