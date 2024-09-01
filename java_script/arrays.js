@@ -43,14 +43,14 @@ console.log(`avg marks of the clss = ${avg}`);
 
 // Q.2 
 let item = [250, 645, 300, 900, 50];
-// let i = 0;
-// for(let value of item){
-//     let offer = value/10;
-//     item[i] = item[i] - offer;
-//     console.log(`value at index ${i} = ${value}`);
-//     console.log(` value after offer ${item[i]}`);
-//     i++;
-// }
+let i = 0;
+for(let value of item){
+    let offer = value/10;
+    item[i] = item[i] - offer;
+    console.log(`value at index ${i} = ${value}`);
+    console.log(` value after offer ${item[i]}`);
+    i++;
+}
 
 for(let i=0; i<item.length; i++){
     let offer = item[i] / 10;
