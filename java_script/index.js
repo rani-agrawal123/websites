@@ -21,6 +21,7 @@ const age1 = 56;
 console.log(age1);
 
 // data types in js (this is two types primitive and none primitive)
+
 // Number, String, boolean, undefiend, null, bigint, symbol(primitive data type)
 // none primitive data type (objects(arrays, function))
 name = "tony stark";
