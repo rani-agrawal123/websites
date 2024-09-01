@@ -46,7 +46,7 @@ console.log(student);
 console.log(student.age);
 
 // ***practice questions
-// Q.1 creat a const boject called "product" to store inof..
+// Q.1 creat a const object called "product" to store info..
 const product ={
     title:"Ball pen",
     rating:4,
