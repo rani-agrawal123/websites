@@ -19,5 +19,5 @@ btn1.onclick = (evt)=>{
 
 let div = document.querySelector("div");
 div.onmouseover = ()=>{
-    console.log("you are inside div");
+console.log("you are inside div");
 }
