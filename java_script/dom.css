@@ -1,0 +1,24 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(168, 141, 193);
+}
+/* .heading{
+    color:blue;
+    background-color: rgb(240, 118, 118);
+}
+#element{
+    color:rgb(2, 2, 34);
+    background-color: rgb(226, 180, 180);
+} */
+.box{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+}
+.content{
+    color:red;
+}
+.newclass{
+    background-color: aqua;
+}
